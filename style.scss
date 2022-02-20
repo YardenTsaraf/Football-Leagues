@@ -55,3 +55,14 @@ img {
     font-size: 25px;
     color: $hover-color;
 }
+
+//Media Queries For A Responsive Design:
+@media (max-width: 900px) {
+    li {
+        font-size: 13px;
+        display: flex;
+        width: 170px;
+        position: relative;
+        margin: auto;
+    }
+}
